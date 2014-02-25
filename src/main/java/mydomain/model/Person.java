@@ -2,7 +2,7 @@ package mydomain.model;
 
 import javax.jdo.annotations.*;
 
-@PersistenceCapable(detachable="true")
+@PersistenceCapable(detachable="true", cacheable="true")
 public class Person
 {
     @PrimaryKey
